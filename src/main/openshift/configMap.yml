@@ -1,0 +1,9 @@
+#oc create -f @project.build.directory@/openshift/configMap.yml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: @project.artifactId@-config
+data:
+  application.yaml: |+
+    server:
+      port: 8080
