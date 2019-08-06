@@ -10,5 +10,11 @@
                 <include>${project.build.finalName}.${project.packaging}</include>
             </includes>
         </fileSet>
+        <fileSet>
+            <directory>${project.basedir}/src/main/scripts</directory>
+            <outputDirectory>/scripts</outputDirectory>
+            <lineEnding>unix</lineEnding>
+            <fileMode>0777</fileMode>
+        </fileSet>
     </fileSets>
 </assembly>

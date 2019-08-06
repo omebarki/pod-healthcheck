@@ -19,13 +19,15 @@ spec:
             - mountPath: /app/config
               name: @project.artifactId@-config-volume
           readinessProbe:
-            tcpSocket:
-              port: 8080
+            exec:
+              command:
+                - /app/scripts/checkStatus.sh
             initialDelaySeconds: 20
             timeoutSeconds: 60
           livenessProbe:
-            tcpSocket:
-              port: 8080
+            exec:
+              command:
+                - /app/scripts/checkStatus.sh
             initialDelaySeconds: 60
             periodSeconds: 20
       volumes:
