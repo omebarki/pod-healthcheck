@@ -18,6 +18,18 @@ spec:
           volumeMounts:
             - mountPath: /app/config
               name: @project.artifactId@-config-volume
+          readinessProbe:
+            httpGet:
+              path: actuator/health
+              port: 8080
+            initialDelaySeconds: 20
+            timeoutSeconds: 60
+          livenessProbe:
+            httpGet:
+              path: actuator/health
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 20
       volumes:
         - configMap:
             defaultMode: 420

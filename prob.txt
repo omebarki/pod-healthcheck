@@ -1,0 +1,17 @@
+2019-08-06 18:13:14.322 DEBUG 1 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [UP {}]
+2019-08-06 18:13:14.323 DEBUG 1 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-06 18:13:24.318 DEBUG 1 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/health", parameters={}
+2019-08-06 18:13:24.318 DEBUG 1 --- [nio-8080-exec-7] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2019-08-06 18:13:24.319 DEBUG 1 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v2+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2019-08-06 18:13:24.319 DEBUG 1 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [UP {}]
+2019-08-06 18:13:24.320 DEBUG 1 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-06 18:13:30.541 DEBUG 1 --- [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/health", parameters={}
+2019-08-06 18:13:30.543 DEBUG 1 --- [nio-8080-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2019-08-06 18:13:30.544 DEBUG 1 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v2+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2019-08-06 18:13:30.544 DEBUG 1 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [UP {}]
+2019-08-06 18:13:30.546 DEBUG 1 --- [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-06 18:13:34.318 DEBUG 1 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/actuator/health", parameters={}
+2019-08-06 18:13:34.319 DEBUG 1 --- [nio-8080-exec-9] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2019-08-06 18:13:34.319 DEBUG 1 --- [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v2+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2019-08-06 18:13:34.320 DEBUG 1 --- [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [UP {}]
+2019-08-06 18:13:34.322 DEBUG 1 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
